@@ -5,10 +5,14 @@
 > **Note:** If you don't meet some of the **requirements**, below are links that will help you
 
 ## Recommending links
+Download
 ### [Docker](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module&_gl=1*126zw6w*_gcl_au*MTAxNjQzMDc1OC4xNzE5MzMzODIz*_ga*MTY1NjU4OTQyMC4xNzE4NjQxNTA3*_ga_XJWPQMJYHQ*MTcxOTMzOTk1MS4zLjEuMTcxOTMzOTk1Mi41OS4wLjA.) | [DBever](https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe)
-
+Documentation
+### [Docker](https://docs.docker.com/desktop/use-desktop/) | [DBever](https://dbeaver.com/docs/dbeaver/Database-Navigator/)
 # Let's start!!
+> You need to run docker desktop before everything
 ### Running a postgres image with the following command line by your cmd or powershell
+
 
 > cmd ex: <br/>
 > C:\Users\your.user>docker run -p 5432:5432 -e POSTGRES_PASSWORD=admin -d postgres
